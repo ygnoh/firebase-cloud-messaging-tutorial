@@ -39,3 +39,35 @@
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
 
+[debug] [2018-05-01T14:40:50.894Z] ----------------------------------------------------------------------
+[debug] [2018-05-01T14:40:50.898Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-01T14:40:50.898Z] CLI Version:   3.18.4
+[debug] [2018-05-01T14:40:50.898Z] Platform:      darwin
+[debug] [2018-05-01T14:40:50.898Z] Node Version:  v6.11.2
+[debug] [2018-05-01T14:40:50.899Z] Time:          Tue May 01 2018 23:40:50 GMT+0900 (KST)
+[debug] [2018-05-01T14:40:50.899Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-01T14:40:50.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-01T14:40:50.916Z] > authorizing via signed-in user
+[debug] [2018-05-01T14:40:50.918Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tutorial-69a13  
+  
+ Tue May 01 2018 23:40:50 GMT+0900 (KST)
+[debug] [2018-05-01T14:40:53.348Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-01T14:40:53.349Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tutorial-69a13/tokens  
+  
+ Tue May 01 2018 23:40:53 GMT+0900 (KST)
+[debug] [2018-05-01T14:40:55.084Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-01T14:40:55.085Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tutorial-69a13  
+  
+ Tue May 01 2018 23:40:55 GMT+0900 (KST)
+[debug] [2018-05-01T14:40:56.682Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/yonggoo/Desktop/develop/chrome/firebase-cloud-messaging-tutorial'...
+[info] 
+[debug] [2018-05-01T14:40:56.686Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/927229004284/clients/_:getWebAppConfig  
+  
+ Tue May 01 2018 23:40:56 GMT+0900 (KST)
+[debug] [2018-05-01T14:40:57.628Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
