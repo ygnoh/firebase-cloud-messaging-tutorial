@@ -1,0 +1,41 @@
+[debug] [2018-05-01T14:37:57.688Z] ----------------------------------------------------------------------
+[debug] [2018-05-01T14:37:57.690Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-01T14:37:57.691Z] CLI Version:   3.18.4
+[debug] [2018-05-01T14:37:57.691Z] Platform:      darwin
+[debug] [2018-05-01T14:37:57.691Z] Node Version:  v6.11.2
+[debug] [2018-05-01T14:37:57.692Z] Time:          Tue May 01 2018 23:37:57 GMT+0900 (KST)
+[debug] [2018-05-01T14:37:57.692Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-01T14:37:57.703Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-01T14:37:57.703Z] > authorizing via signed-in user
+[debug] [2018-05-01T14:37:57.705Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-01T14:37:57.705Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/tK9iAXAQrnBA9ocXylrPPmaERn5EzDdxIpVt5N76DtKkc1rdDqo6NF3hnyCGLDzs',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue May 01 2018 23:37:57 GMT+0900 (KST)
+[debug] [2018-05-01T14:37:58.378Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-01T14:37:58.393Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tutorial-69a13  
+  
+ Tue May 01 2018 23:37:58 GMT+0900 (KST)
+[debug] [2018-05-01T14:37:59.674Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-01T14:37:59.676Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tutorial-69a13/tokens  
+  
+ Tue May 01 2018 23:37:59 GMT+0900 (KST)
+[debug] [2018-05-01T14:38:01.924Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-01T14:38:01.925Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tutorial-69a13  
+  
+ Tue May 01 2018 23:38:01 GMT+0900 (KST)
+[debug] [2018-05-01T14:38:03.562Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/yonggoo/Desktop/develop/chrome/firebase-cloud-messaging-tutorial'...
+[info] 
+[debug] [2018-05-01T14:38:03.567Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/927229004284/clients/_:getWebAppConfig  
+  
+ Tue May 01 2018 23:38:03 GMT+0900 (KST)
+[debug] [2018-05-01T14:38:05.406Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
