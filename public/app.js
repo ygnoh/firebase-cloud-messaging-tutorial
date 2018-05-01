@@ -9,4 +9,15 @@ const config = {
 };
 firebase.initializeApp(config);
 
-console.log("loaded");
+const messaging = firebase.messaging();
+messaging.requestPermission()
+    .then(() => {
+        console.log("have permission");
+        return messaging.getToken();
+    })
+    .then(token => {
+        console.log(token);
+    })
+    .catch(err => {
+        console.log("error occured: ", err);
+    })
