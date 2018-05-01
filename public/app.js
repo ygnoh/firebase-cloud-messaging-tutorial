@@ -20,4 +20,4 @@ messaging.requestPermission()
     })
     .catch(err => {
         console.log("error occured: ", err);
-    })
+    });
