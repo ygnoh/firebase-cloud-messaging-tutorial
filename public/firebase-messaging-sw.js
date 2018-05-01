@@ -13,3 +13,10 @@ const config = {
 firebase.initializeApp(config);
 
 const messaging = firebase.messaging();
+messaging.setBackgroundMessageHandler(payload => {
+    const title = "hello";
+    const options = {
+        body: payload.data.status
+    }
+    return self.registration.showNotification(title, options);
+});
